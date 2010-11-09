@@ -1,0 +1,7 @@
+1 	1142515 	Fulano de Tal 		34 	 
+2 	1146197 	Sicrano da Silva 	  	4 	Desistente
+3 	1144933 	Jose de Abreu 		5 	 
+4 	1141258 	Saulo Reis 	  	4 	Cancelado
+5 	1175743 	Maria Juliana da Silva Finger 		40 	 
+6 	1145352 	Manuel Antunes 	  	0 	Credito Consignado
+7 	1194373 	Pedro Henrique Pepeu De Lima Goncalves 	  	36 	Trancado

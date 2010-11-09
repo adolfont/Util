@@ -1,0 +1,20 @@
+Programa em Python para fazer sorteio de alunos
+Adolfo Neto, 2010
+
+Instruções:
+
+Para executar:
+  python SorteioGrafico.py arquivo_de_alunos.txt
+  ou
+  python sorteio.py arquivo_de_alunos.txt
+
+
+Como gerar o arquivo de alunos:
+
+	Em http://sistemas.utfpr.edu.br/
+	  	Clicar em "Lançamento de frequência e conteúdo"
+	  	Clicar em "Lançar novo"
+  	  	Selecionar apenas os dados dos alunos a partir de
+     		"Nº 	Código 	Nome 	Faltas 	Total de Faltas 	Situação"
+		Não incluir esta linha de cabeçalho, mas incluir todas as colunas, inclusive "Situação", pois esta informação é usada  pelo programa.
+		Salvar em um arquivo TXT
