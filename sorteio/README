@@ -8,7 +8,7 @@ Instruções
 Para baixar os arquivos, clicar em https://github.com/adolfont/Util/zipball/master
 
 Para executar:
-  No modo gráfico (compatível apenas com Linux)
+  No modo gráfico (compatível apenas com Linux - é preciso ter o pacote "tkinter" instalado)
 
      python SorteioGrafico.py arquivo_de_alunos.txt
 
