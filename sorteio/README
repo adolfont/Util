@@ -1,15 +1,22 @@
 Programa em Python para fazer sorteio de alunos
 Adolfo Neto, 2010
 
-Instruções:
+Instruções
+======
+
+Para baixar os arquivos, clicar em https://github.com/adolfont/Util/zipball/master
 
 Para executar:
-  python SorteioGrafico.py arquivo_de_alunos.txt
-  ou
-  python sorteio.py arquivo_de_alunos.txt
+  No modo gráfico (compatível apenas com Linux)
+
+     python SorteioGrafico.py arquivo_de_alunos.txt
+
+  ou no modo texto:
+
+    python sorteio.py arquivo_de_alunos.txt
 
 
-Como gerar o arquivo de alunos:
+Como gerar o arquivo de alunos (necessário para encontrar os números, nomes e situações dos alunos):
 
 	Em http://sistemas.utfpr.edu.br/
 	  	Clicar em "Lançamento de frequência e conteúdo"
@@ -18,3 +25,5 @@ Como gerar o arquivo de alunos:
      		"Nº 	Código 	Nome 	Faltas 	Total de Faltas 	Situação"
 		Não incluir esta linha de cabeçalho, mas incluir todas as colunas, inclusive "Situação", pois esta informação é usada  pelo programa.
 		Salvar em um arquivo TXT
+
+Obs.: O programa automaticamente exclui do sorteio os alunos desistentes, com o curso trancado, com a matrícula cancelada e com crédito consignado.
