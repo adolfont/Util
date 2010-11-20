@@ -3,6 +3,7 @@
 # Aplicação gráfica que usa a aplicação sorteio.py
 from Tkinter import *
 from sorteio import *
+import locale
 
 class SorteioGrafico(Frame):
     def sorteia_proximo(self):
@@ -36,6 +37,8 @@ class SorteioGrafico(Frame):
         self.createWidgets()
 
 def main():
+
+	locale.setlocale(locale.LC_CTYPE, ('pt_BR', 'iso8859-1'))
 
 	if len(sys.argv) < 2:
 		print "Deve haver um segundo argumento: o nome do arquivo"

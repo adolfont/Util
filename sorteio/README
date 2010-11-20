@@ -25,6 +25,6 @@ Como gerar o arquivo de alunos (necessário para encontrar os números, nomes e 
   	  	Selecionar apenas os dados dos alunos a partir de
      		"Nº 	Código 	Nome 	Faltas 	Total de Faltas 	Situação"
 		Não incluir esta linha de cabeçalho, mas incluir todas as colunas, inclusive "Situação", pois esta informação é usada  pelo programa.
-		Salvar em um arquivo TXT
+		Salvar em um arquivo TXT no formato ISO-8859-1
 
 Obs.: O programa automaticamente exclui do sorteio os alunos desistentes, com o curso trancado, com a matrícula cancelada e com crédito consignado.

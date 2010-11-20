@@ -5,6 +5,8 @@
 
 import random
 import sys
+import locale
+
 
 def juntaApenasStrings(lista):
 	return [ item  for item in lista if item.isalpha() ]
@@ -34,6 +36,7 @@ def alunoFrequenta(aluno):
 
 
 def sorteia(arquivo):
+	locale.setlocale(locale.LC_CTYPE, ('pt_BR', 'iso8859-1'))
 
 	random.seed()
 
@@ -41,10 +44,11 @@ def sorteia(arquivo):
 
 	while True:
 		sortudo = 1+int(random.random()*linhas)
+#		print "DEBUG: - sortudo: ", sortudo 
 		alunoSortudo = procura(arquivo,sortudo)
-#		print "DEBUG - aluno sorteado: ",  alunoSortudo
+#		print "DEBUG - aluno sorteado: ",  unicode(alunoSortudo, 'iso8859-1')
 		if alunoFrequenta(alunoSortudo):
-			return "A(O) aluna(o) de sorte é " + alunoSortudo
+			return u"A(O) aluna(o) de sorte é " + unicode(alunoSortudo, 'iso8859-1')
 
 def main():
 	if len(sys.argv) < 2:
