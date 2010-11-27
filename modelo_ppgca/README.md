@@ -1,9 +1,10 @@
-Este repositório contém o Modelo para a Elaboração de Dissertações de Mestrado do PPGCA - UTFPR.
+Este repositÃ³rio contÃ©m o Modelo para a ElaboraÃ§Ã£o de DissertaÃ§Ãµes de Mestrado do PPGCA - UTFPR.
 
-**PPGCA**: Programa de Pós-Graduação em Computação Aplicada http://www.ppgca.utfpr.edu.br
-**UTFPR**: Universidade Tecnológica Federal do Paraná http://www.utfpr.edu.br
+**PPGCA**: Programa de PÃ³s-GraduaÃ§Ã£o em ComputaÃ§Ã£o Aplicada http://www.ppgca.utfpr.edu.br
+**UTFPR**: Universidade TecnolÃ³gica Federal do ParanÃ¡ http://www.utfpr.edu.br
 
 
-## Instruções
+## InstruÃ§Ãµes
+
 
 
