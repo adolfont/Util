@@ -11,7 +11,7 @@ Este repositório contém o Modelo para a Elaboração de Dissertações de Mest
 
 
 1. Instalar o Latex
-2. Instalar o abnTeX (<http://abntex.codigolivre.org.br/>)
+2. Instalar a versão mais recente do abnTeX (<http://abntex.codigolivre.org.br/>)
 
    Veja como em: <http://abntex.codigolivre.org.br/node7.html#instalacao>
 
@@ -21,7 +21,7 @@ Este repositório contém o Modelo para a Elaboração de Dissertações de Mest
 
 5. Gerar o PDF tendo como base o arquivo modelo_ppgca.tex
 
-   A forma mais garantida é executar **pdflatex modelo_ppgca.tex** duas vezes, depois executar **bibtex modelo_ppgca**, depois novamente executar **pdflatex modelo_ppgca.tex**.
+   A forma mais garantida é executar **pdflatex modelo_ppgca.tex** uma veze, depois executar **bibtex modelo_ppgca**, depois executar **pdflatex modelo_ppgca.tex** duas vezes.
 
 6. Visualizar o PDF gerado
 
