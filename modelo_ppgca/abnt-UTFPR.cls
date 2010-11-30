@@ -85,6 +85,10 @@
 \renewcommand{\capa}{
 	\begin{titlepage}
 		\begin{center}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.4\textwidth]{./figs/ppgca.jpg} % <- formatos PNG, JPG e PDF
+\end{figure}
 			\large\MakeUppercase{\ABNTinstituicaodata}\\
 			\ABNTifnotempty{\UTFPRdepartamentodata}
 			{
