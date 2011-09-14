@@ -1,0 +1,13 @@
+These are some scripts form sending content to my Kindle.
+
+To work, you need to have "mutt" installed and configured, following:
+
+  http://blog.nguyenvq.com/2010/07/10/how-to-set-up-sending-mail-from-the-command-line/
+
+
+And you need to put the scripts in a place where they can be found, such as /usr/local/bin
+
+PS: I am using Ubuntu 10.10
+
+Adolfo Neto
+September 14th, 2011.
