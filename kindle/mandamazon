@@ -1,0 +1,45 @@
+#!/bin/bash 
+#
+# mandamazon.sh: Shell script para mandar arquivos para o seu Amazon Kindle direto da linha de comando do Linux
+# Autor: Adolfo Neto (http://twitter.com/adolfont)
+#
+## Necessário ter o programa "mutt" instalado e configurado. 
+## Veja como em http://www.linuxuser.co.uk/tutorials/get-started-with-mutt/
+EMAIL=adolfont@free.kindle.com
+
+MENSAGEM_USO="
+Uso: $(basename "$0") [OPÇÕES] | $(basename "$0") ARQUIVO [EMAIL]
+Envia ARQUIVO para o seu EMAIL do Kindle 
+
+OPÇÕES:
+  -h, --help		Mostra esta tela de ajuda e sai
+
+Exemplo(s):
+	$(basename "$0") artigo.pdf		
+			Envia artigo.pdf para seu email (configurado no script) do Kindle
+	$(basename "$0") artigo.pdf jjj@free.kindle.com	
+			Envia artigo.pdf para o email jjj@free.kindle.com
+"
+
+if test "$2" != ""
+then 
+	EMAIL=$2
+fi
+
+case "$1" in
+-h | --help)
+	echo "$MENSAGEM_USO"
+	exit 0
+;;
+*)
+	echo "Enviando "$1" para o seu Kindle pelo email "$EMAIL" "
+	echo \"Enviando "$1"\" | mutt -s \"Enviando "$1"\" $EMAIL -a "$1"
+;;
+esac
+
+
+# Para aprender Shell Script, leia:
+# JARGAS, Aurélio Marinho. Shell Script Profissional. São Paulo: Novatec Editora, 2008.
+# Página do livro: http://www.shellscript.com.br/
+# Twitter do autor: http://twitter.com/oreio
+
