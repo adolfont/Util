@@ -1,0 +1,61 @@
+# Create own window instead of using desktop (required in nautilus)
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# fiddle with window
+use_spacer yes
+use_xft no
+
+# Update interval in seconds
+update_interval 3.0
+
+# Minimum size of text area
+#minimum_size 500 400
+
+# Draw shades?
+draw_shades no
+
+# Text stuff
+draw_outline no # amplifies text if yes
+draw_borders no
+font arial
+uppercase no # set to yes if you want all text to be in uppercase
+
+# Stippled borders?
+stippled_borders 3
+
+# border margins
+border_margin 9
+
+# border width
+border_width 10
+
+# Default colors and also border colors, grey90 == #e5e5e5
+default_color blue
+
+own_window_colour white
+own_window_transparent no
+
+# Text alignment, other possible values are commented
+#alignment top_left
+alignment top_right
+#alignment bottom_left
+#alignment bottom_right
+
+# Gap between borders of screen and text
+gap_x 10
+gap_y 50
+
+
+# stuff after 'TEXT' will be formatted on screen
+
+TEXT
+${execi 30 cat /home/adolfo/Dropbox/todo/todooo.txt | grep -v ^"x "}
+${hr 5}
+
