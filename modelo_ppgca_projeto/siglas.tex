@@ -1,0 +1,22 @@
+\chapter{Lista de siglas}
+\label{chap:siglas}
+
+% Trecho extraído do modelo http://www2.dainf.ct.utfpr.edu.br/ppgca/estrutura-academica/regulamentacao/avaliacao/copy_of_ModeloProjetoeSeminarios.doc/view
+Elemento opcional, constituída de uma relação alfabética das abreviaturas e siglas utilizadas no texto, seguido das palavras ou expressões correspondentes grafadas por extenso. Quando necessário, recomenda-se a elaboração de lista própria para cada tipo. Caso não haja abreviaturas, não é necessário incluir a lista de abreviaturas. 
+
+(Adaptado para usar o comando \\sigla)
+
+\begin{itemize}
+	\item \sigla{Bps}{bits por segundo}: bits por segundo
+	\item \sigla{CGI}{Common Gateway Interface - Interface de Porta Comum}: Common Gateway Interface - Interface de Porta Comum
+	\item \sigla{CNS}{Cartão Nacional de Saúde}: Cartão Nacional de Saúde
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+
+\textbf{* Observa\c{c}\~oes:} a lista de siglas nao realiza a ordenacao das siglas em ordem alfabetica
+ Em breve isso sera implementado, enquanto isso: \\
+\textbf{Sugest\~ao:} crie outro arquivo .tex para siglas e utilize o comando \textbackslash sigla\{sigla\}\{descri\c{c}\~ao\}.
+Para incluir este arquivo no final do arquivo, utilize o comando \textbackslash input\{arquivo.tex\}.
+Assim, Todas as siglas serao geradas na ultima pagina. Entao, devera excluir a ultima pagina da versao final do arquivo
+ PDF do seu documento.
